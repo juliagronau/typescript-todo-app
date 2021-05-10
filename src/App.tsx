@@ -34,8 +34,8 @@ setTodoList(todoList.filter((task) => {
     <div className="App">
       <div className="header">
         <div className="inputContainer">
-        <input value={task} name="task" type="text" placeholder="Task..." onChange={handleChange}></input>
-        <input value={deadline} name="deadline" type="number" placeholder="Deadline (in days)..." onChange={handleChange}></input>
+        <input value={task} name="task" type="text" placeholder="What needs to be done?" onChange={handleChange}></input>
+        <input value={deadline} name="deadline" type="number" onChange={handleChange}></input>
         </div>
         <button onClick={addTask}>Add Task</button>
       </div>

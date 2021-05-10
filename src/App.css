@@ -14,7 +14,7 @@ body {
 
 .header {
   flex: 30%;
-  background-color: tomato;
+  background-color: #9b1449;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -80,16 +80,15 @@ body {
   height: 100%;
   font-size: 18px;
   border-right: none;
-  background-color: tomato;
+  background-color: #9b1449;
 }
 
 .task button {
   flex: 20%;
   height: 100%;
   border: none;
-  background-color: lightseagreen;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  background-color: #4f0b26;
+  border: 1px solid white;
   color: white;
   cursor: pointer;
 }
